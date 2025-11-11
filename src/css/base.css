@@ -30,3 +30,20 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #2575fc;
+  padding-bottom: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+h1:hover {
+  color: #2575fc;
+  border-bottom: 2px solid #ff6f61;
+}

@@ -1,0 +1,66 @@
+.feedback-form {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: start;
+}
+
+input[type='email'],
+textarea {
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type='email'],
+textarea {
+  border-color: #ccc;
+}
+input[type='email']:hover,
+textarea:hover {
+  border-color: #888;
+}
+input[type='email']:focus,
+textarea:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: auto;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #45a049;
+}
